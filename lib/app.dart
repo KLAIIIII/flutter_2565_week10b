@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_week10b/home.dart';
 import 'package:flutter_week10b/stateful.dart';
+import 'contact.dart';
 
 class MyApp extends StatelessWidget{
   const MyApp({Key? key}):super(key: key); //1.constuctor
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: StateFulPage(),
+      home: ContactPage(),
     );
   }
 }
